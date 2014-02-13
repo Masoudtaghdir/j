@@ -25,3 +25,4 @@ foreach($db->loadAssocList() as $row)
 $result = array('type'=>'success', 'item'=>$item);
 // var_dump($row['id']);
 echo json_encode($result);
+//test
